@@ -1,19 +1,5 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.image {
-  position: absolute;
-  max-height: 90vh;
-  min-height: 90vh;
-  width: auto;
-
-  align-self: self-start;
-  filter: drop-shadow(0 0 0.75rem rgb(111, 62, 126));
-  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 60%, transparent 100%);
+.maincontainer {
+  height: 90vh;
 }
 
 @keyframes rotation {

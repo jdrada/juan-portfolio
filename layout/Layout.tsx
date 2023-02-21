@@ -1,9 +1,8 @@
-import NavBar from "@/components/NavBar/NavBar";
-import Head from "next/head";
 import React, { ReactNode } from "react";
-import styles from "@/styles/Home.module.css";
+import Juanca from "@/public/juanca.png";
 import Image from "next/image";
-import JuancaPic from "@/public/juanca.png";
+import styles from "@/layout/Layout.module.css";
+import NavBar from "@/components/NavBar/NavBar";
 
 interface LayoutProps {
   children: ReactNode;
@@ -12,17 +11,18 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <Head>
-        <title>Genie Web App</title>
-      </Head>
-      <div className={styles.main}>
+      <div className={`h-[10vh]`}>
         <NavBar />
-        <div className="flex">
+      </div>
+      <div className={`h-[90vh] flex`}>
+        <div className=" relative hidden md:block basis-2/5 ">
           <Image
-            className={`${styles.image} flex-none bottom-0 left-0`}
-            src={JuancaPic}
-            alt={"JuancaPic"}
-          ></Image>
+            className={`${styles.juanca} absolute bottom-0 left-0 `}
+            src={Juanca}
+            alt={"Juanca"}
+          />
+        </div>
+        <div className=" md:basis-3/5">
           <main>{children}</main>
         </div>
       </div>

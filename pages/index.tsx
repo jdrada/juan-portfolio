@@ -17,8 +17,26 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex bg-slate-200">
-        <h2>Home</h2>
+      <div className={`flex w-fit justify-center`}>
+        <div className="p-20 justify-center drop-shadow-xl">
+          <p>Front End</p>
+          <h2 className="font-PageTitle font-bold text-slate-50 text-4xl">
+            Web Developer
+          </h2>
+          <p className=" mt-3 font-PageTitle text-slate-300">
+            TypeScrip | React | Next.js
+          </p>
+
+          <p className="mt-5 font-PageTitle text-slate-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+            veritatis deserunt officia nesciunt distinctio at eos ipsam rem qui
+            reiciendis id. Fuga doloribus voluptatem iste adipisci ut beatae
+            veritatis pariatur! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Aliquid doloribus temporibus aut odit dolorem
+            veniam qui laudantium nisi accusantium quasi nam, veritatis
+            molestiae debitis fuga nostrum facilis assumenda. Dicta, temporibus?
+          </p>
+        </div>
       </div>
     </>
   );

@@ -1,0 +1,9 @@
+.juanca {
+  filter: drop-shadow(0 0 0.75rem rgb(111, 62, 126));
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 75%, transparent 100%);
+}
+
+.maincontainer {
+  min-height: 90vh;
+  max-height: 90vh;
+}

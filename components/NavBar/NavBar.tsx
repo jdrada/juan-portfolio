@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import styles from "@/styles/Home.module.css";
 import { useRouter } from "next/router";
 
 const NavBar = () => {
@@ -8,11 +7,11 @@ const NavBar = () => {
   const currentRoute = router.pathname;
   return (
     <>
-      <div className="flex container pt-10 pb-10">
-        <h1 className="basis-1/4 font-Logo text-slate-50 text-2xl drop-shadow-lg">
+      <div className="flex w-full h-[10vh]">
+        <h1 className="basis-1/4 font-Logo text-slate-50 text-2xl drop-shadow-lg justify-self-center">
           🚀 JUAN DRADA
         </h1>
-        <div className="flex basis-3/4 flex-row-reverse gap-x-12">
+        <div className="flex basis-3/4 flex-row-reverse lg:gap-x-20 pr-20 font-xl font-alata">
           <button>
             <Link
               className={
