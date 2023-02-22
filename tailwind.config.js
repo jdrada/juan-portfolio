@@ -8,9 +8,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        bg: "url('./public/space.png')",
-      },
+      backgroundImage: {},
       fontFamily: {
         logo: ["Alata", "sans-serif"],
         PageTitle: ["Work Sans", "sans-serif"],

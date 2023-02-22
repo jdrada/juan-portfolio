@@ -11,19 +11,21 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <div className={`h-[10vh]`}>
-        <NavBar />
-      </div>
-      <div className={`h-[90vh] flex`}>
-        <div className=" relative hidden md:block basis-2/5 ">
-          <Image
-            className={`${styles.juanca} absolute bottom-0 left-0 `}
-            src={Juanca}
-            alt={"Juanca"}
-          />
+      <div className="h-[100vh] w-auto">
+        <div className={`h-[10vh] `}>
+          <NavBar />
         </div>
-        <div className=" md:basis-3/5">
-          <main>{children}</main>
+        <div className={`h-[90vh] flex`}>
+          <div className="relative hidden lg:block basis-2/5 ">
+            <Image
+              className={`${styles.juanca} absolute bottom-0 left-0 `}
+              src={Juanca}
+              alt={"Juanca"}
+            />
+          </div>
+          <div className=" lg:basis-3/5 ">
+            <main>{children}</main>
+          </div>
         </div>
       </div>
     </>
