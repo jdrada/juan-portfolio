@@ -44,11 +44,9 @@ const Home = () => {
           <p className="mt-5 font-PageTitle text-slate-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
             veritatis deserunt officia nesciunt distinctio at eos ipsam rem qui
-            reiciendis id. Fuga doloribus voluptatem iste adipisci ut beatae
-            veritatis pariatur! Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Aliquid doloribus temporibus aut odit dolorem
-            veniam qui laudantium nisi accusantium quasi nam, veritatis
-            molestiae debitis fuga nostrum facilis assumenda. Dicta, temporibus?
+            reiciendis id. Fuga doloribus voluptatem iste adipisci ut beatae vum
+            nisi accusantium quasi nam, veritatis molestiae debitis fuga nostrum
+            facilis assumenda. Dicta, temporibus?
           </p>
           <p className="text-slate-300 mt-4">I usually work with:</p>
           <div className="mt-6 mb-5 gap-4 grid grid-cols-5 justify-tems-center sm:grid-cols-6 mt-4 drop-shadow h-fit pb-4">
