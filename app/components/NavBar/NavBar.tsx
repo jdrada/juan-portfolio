@@ -31,10 +31,10 @@ const NavBar = () => {
         </Link>
         \ \
         <Link
-          className="hidden lg:block lg:flex:none lg:order-last text-slate-50 font-Logo bg-[#402166] px-6 h-10 rounded-full"
+          className="hidden lg:block lg:flex:none lg:order-last text-slate-50 font-Logo bg-[#402166] hover:bg-indigo-500 px-6 py-3 rounded-full"
           href="/contact"
         >
-          Contact
+          Download CV
         </Link>
         \{/* Navigation */}
         <NavButtons />

@@ -13,9 +13,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <div className="lg:h-[100vh] w-auto">
-        <div className="lg:h-[10vh]">
-          <NavBar />
-        </div>
+        <NavBar />
         <div className="flex lg:h-[90vh]">
           <div className="relative hidden lg:block basis-2/5 ">
             <Image
@@ -24,9 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
               alt={"Juanca"}
             />
           </div>
-          <div className=" lg:basis-3/5 ">
-            <main>{children}</main>
-          </div>
+          <main className=" lg:basis-3/5 ">{children}</main>
         </div>
       </div>
     </>
